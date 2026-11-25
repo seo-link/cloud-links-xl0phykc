@@ -1,0 +1,28 @@
+# AI Access Permissions
+# All search, SEO, and AI citation bots: ALLOWED
+# Pure bulk training harvesters with no citation value: BLOCKED
+# --- ALL CRAWLERS (Allowed by default) ---
+User-agent: *
+Allow: /
+# --- PURE TRAINING HARVESTERS (No citation or indexing value) ---
+User-agent: CCBot
+Disallow: /
+User-agent: Diffbot
+Disallow: /
+User-agent: Bytespider
+Disallow: /
+# --- CITATION RIGHTS ---
+Citation-Allowed: true
+Source-URL: 
+Content-Type: informational
+License: https://creativecommons.org/licenses/by/4.0/
+# --- INDEXING PERMISSIONS ---
+GPTBot: allowed
+ChatGPT-User: allowed
+PerplexityBot: allowed
+Google-Extended: allowed
+anthropicai: allowed
+ClaudeBot: allowed
+SemrushBot: allowed
+AhrefsBot: allowed
+MJ12bot: allowed
